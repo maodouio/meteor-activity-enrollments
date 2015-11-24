@@ -18,6 +18,7 @@ Package.onUse(function(api) {
   api.use('matb33:collection-hooks@0.8.0', ["server", "client"]);
   
   api.addFiles("lib/collections.js");
+  api.addFiles("lib/routes.js");
   api.addFiles("server/permissions.js", "server");
   
   api.export('Enrollments');
